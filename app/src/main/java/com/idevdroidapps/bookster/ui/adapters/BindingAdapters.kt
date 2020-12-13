@@ -22,7 +22,7 @@ fun TextView.authors(authors: List<String>?) {
 fun ImageView.thumbnailLarge(thumbnailUrl: String?) {
     thumbnailUrl?.let { url ->
         val options = RequestOptions()
-            .override(96, 96)
+            .override(128, 128)
             .placeholder(R.drawable.ic_placeholder_book_96)
             .diskCacheStrategy(DiskCacheStrategy.NONE)
             .fitCenter()

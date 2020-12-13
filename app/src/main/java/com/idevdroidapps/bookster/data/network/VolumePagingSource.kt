@@ -20,8 +20,8 @@ class VolumePagingSource(
             val volumes = response.items
             LoadResult.Page(
                 data = volumes,
-                prevKey = if (position == BOOKS_STARTING_PAGE_INDEX) null else position - 1,
-                nextKey = if (volumes.isEmpty()) null else position + 1
+                prevKey = if (position == BOOKS_STARTING_PAGE_INDEX) null else position,
+                nextKey = if (volumes.isEmpty()) null else (position + params.pageSize)
             )
         } catch (exception: IOException) {
             LoadResult.Error(exception)
