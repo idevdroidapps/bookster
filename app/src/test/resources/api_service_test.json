@@ -1,0 +1,1576 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 3369,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Cy8nyLknYLIC",
+      "etag": "hxjb32jsolQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Cy8nyLknYLIC",
+      "volumeInfo": {
+        "title": "I Could Pee on This",
+        "subtitle": "And Other Poems by Cats",
+        "authors": [
+          "Francesco Marciuliano"
+        ],
+        "publisher": "Chronicle Books",
+        "publishedDate": "2012-08-03",
+        "description": "Cat lovers will laugh out loud at the quirkiness of their feline friends with these insightful and curious poems from the singular minds of housecats. In this hilarious book of tongue-in-cheek poetry, the author of the internationally syndicated comic strip Sally Forth helps cats unlock their creative potential and explain their odd behavior to ignorant humans. With titles like \"Who Is That on Your Lap?,\" \"This Is My Chair,\" \"Kneel Before Me,\" \"Nudge,\" and \"Some of My Best Friends Are Dogs,\" the poems collected in I Could Pee on This perfectly capture the inner workings of the cat psyche. With photos of the cat authors throughout, this whimsical volume reveals kitties at their wackiest, and most exasperating (but always lovable).",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781452121864"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1452121869"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 112,
+        "printType": "BOOK",
+        "categories": [
+          "Humor"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 32,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.14.12.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Cy8nyLknYLIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Cy8nyLknYLIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Cy8nyLknYLIC&printsec=frontcover&dq=cats&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Cy8nyLknYLIC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Cy8nyLknYLIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 8.13,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Cy8nyLknYLIC&rdid=book-Cy8nyLknYLIC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 10990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8130000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/I_Could_Pee_on_This-sample-epub.acsm?id=Cy8nyLknYLIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/I_Could_Pee_on_This-sample-pdf.acsm?id=Cy8nyLknYLIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Cy8nyLknYLIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With titles like &quot;Who Is That on Your Lap?,&quot; &quot;This Is My Chair,&quot; &quot;Kneel Before Me,&quot; &quot;Nudge,&quot; and &quot;Some of My Best Friends Are Dogs,&quot; the poems collected in I Could Pee on This perfectly capture the inner workings of the cat psyche."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "aqeCwxbRWvsC",
+      "etag": "vCRkxf29Y/4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/aqeCwxbRWvsC",
+      "volumeInfo": {
+        "title": "Nutrient Requirements of Dogs and Cats",
+        "authors": [
+          "National Research Council",
+          "Division on Earth and Life Studies",
+          "Board on Agriculture and Natural Resources",
+          "Committee on Animal Nutrition",
+          "Subcommittee on Dog and Cat Nutrition"
+        ],
+        "publisher": "National Academies Press",
+        "publishedDate": "2006-07-01",
+        "description": "Updating recommendations last made by the National Research Council in the mid-1980s, this report provides nutrient recommendations based on physical activity and stage in life, major factors that influence nutrient needs. It looks at how nutrients are metabolized in the bodies of dogs and cats, indications of nutrient deficiency, and diseases related to poor nutrition. The report provides a valuable resource for industry professionals formulating diets, scientists setting research agendas, government officials developing regulations for pet food labeling, and as a university textbook for dog and cat nutrition. It can also guide pet owners feeding decisions for their pets with information on specific nutrient needs, characteristics of different types of pet foods, and factors to consider when feeding cats and dogs.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0309086280"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780309086288"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 424,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=aqeCwxbRWvsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=aqeCwxbRWvsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=aqeCwxbRWvsC&pg=PA1&dq=cats&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=aqeCwxbRWvsC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Nutrient_Requirements_of_Dogs_and_Cats.html?hl=&id=aqeCwxbRWvsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=aqeCwxbRWvsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The National Research Council has published several editions of Nutrient \u003cbr\u003e\nRequirements of Dogs and of Nutrient Requirements of \u003cb\u003eCats\u003c/b\u003e , with the most \u003cbr\u003e\nrecent editions published in 1985 and 1986 , respectively . This new volume \u003cbr\u003e\nrepresents a&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "UbhoOXySYewC",
+      "etag": "RPJSoFf1VWA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/UbhoOXySYewC",
+      "volumeInfo": {
+        "title": "Why Do Cats Bury Their Poop?",
+        "subtitle": "More Than 200 Feline Facts, Fallacies, and Foibles Revealed",
+        "authors": [
+          "Margaret H. Bonham",
+          "D. Caroline Coile"
+        ],
+        "publisher": "Sterling Publishing Company, Inc.",
+        "publishedDate": "2008",
+        "description": "Answers more than two hundred questions about cats and their behavior, including \"Why do cats purr?\" and \"Do cats have favorite colors of food?\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1402750404"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781402750403"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 144,
+        "printType": "BOOK",
+        "categories": [
+          "Pets"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=UbhoOXySYewC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=UbhoOXySYewC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=UbhoOXySYewC&pg=PA72&dq=cats&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=UbhoOXySYewC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Why_Do_Cats_Bury_Their_Poop.html?hl=&id=UbhoOXySYewC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=UbhoOXySYewC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Can \u003cb\u003ecats\u003c/b\u003e watch TV ? MOST \u003cb\u003eCATS\u003c/b\u003e APPRECIATE A television set more for its \u003cbr\u003e\nwarmth than for its entertainment value . But a television image presents certain \u003cbr\u003e\nimpediments to a \u003cb\u003ecat\u003c/b\u003e &#39; s viewing pleasure . The images on a typical television are\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0HmB3ix5IQ8C",
+      "etag": "YX0mdbM9ZAc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0HmB3ix5IQ8C",
+      "volumeInfo": {
+        "title": "The Welfare of Cats",
+        "authors": [
+          "Irene Rochlitz"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2007-04-17",
+        "description": "Written by experts from the UK, the USA and Switzerland, this book focuses on the major issues affecting the welfare of domestic cats. It covers behaviour, the human-cat relationship, and the impact of housing, disease, nutrition and breeding on welfare.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781402032271"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1402032277"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 283,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0HmB3ix5IQ8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0HmB3ix5IQ8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=0HmB3ix5IQ8C&pg=PA177&dq=cats&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=0HmB3ix5IQ8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0HmB3ix5IQ8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 129,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 103.2,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=0HmB3ix5IQ8C&rdid=book-0HmB3ix5IQ8C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 129000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 103200000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 45150000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 39280000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Welfare_of_Cats-sample-epub.acsm?id=0HmB3ix5IQ8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Welfare_of_Cats-sample-pdf.acsm?id=0HmB3ix5IQ8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0HmB3ix5IQ8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Chapter 7 HOUSING AND WELFARE Irene Rochlitz Animal Welfare and Human-\u003cbr\u003e\nanimal Interactions Group, Department of Veterinary Medicine, University of \u003cbr\u003e\nCambridge, Madingley Road, Cambridge CB30ES, UK Abstract: The way a \u003cb\u003ecat\u003c/b\u003e is\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-LB3EUeg4okC",
+      "etag": "NLjw21RLYOQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-LB3EUeg4okC",
+      "volumeInfo": {
+        "title": "Cancer in Dogs and Cats",
+        "subtitle": "Medical and Surgical Management",
+        "authors": [
+          "Wallace B. Morrison"
+        ],
+        "publisher": "Teton NewMedia",
+        "publishedDate": "2002",
+        "description": "This is the second edition of a book originally published by Lippincott, Williams & Wilkins. Cancer in Dogs and Cats, 2nd edition, has been completely updated and revised to provide the clinician with all the tools needed to properly diagnose and manage treatable cancers in dogs and cats. The presentation is a practical blend of basic science and both medical and surgical therapeutics designed to help the clinician make the difficult decisions inherent with cancer treatment. An entirely new and comprehensive index is provided, which allows precise and easy access to the content of the book.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1893441474"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781893441477"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 782,
+        "printType": "BOOK",
+        "categories": [
+          "Medical"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-LB3EUeg4okC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-LB3EUeg4okC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=-LB3EUeg4okC&pg=PA545&dq=cats&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=-LB3EUeg4okC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cancer_in_Dogs_and_Cats.html?hl=&id=-LB3EUeg4okC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-LB3EUeg4okC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Wallace B. Morrison Clinical features of cancers of the urinary tract of dogs and \u003cbr\u003e\n\u003cb\u003ecats\u003c/b\u003e are similar . Most urinary tract neoplasms are malignant , so it is important to \u003cbr\u003e\nregard each patient with suspected urinary tract cancer as likely to experience&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HWRHn8EsfOkC",
+      "etag": "3DGrxIBg5TQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HWRHn8EsfOkC",
+      "volumeInfo": {
+        "title": "Kids draw : cats, kittens, lions and tigers",
+        "authors": [
+          "Christopher Hart"
+        ],
+        "publisher": "Random House Digital, Inc.",
+        "publishedDate": "2001",
+        "description": "Offers complete instructions for drawing all kinds of cartoon cats in many different poses and costumes.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0823026299"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780823026296"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HWRHn8EsfOkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HWRHn8EsfOkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=HWRHn8EsfOkC&pg=PA5&dq=cats&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=HWRHn8EsfOkC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Kids_draw_cats_kittens_lions_and_tigers.html?hl=&id=HWRHn8EsfOkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HWRHn8EsfOkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A re you a \u003cb\u003ecat\u003c/b\u003e lover ? Do you love cute \u003cb\u003ecats\u003c/b\u003e , fluffy \u003cb\u003ecats\u003c/b\u003e , spoiled rotten and nasty \u003cbr\u003e\n\u003cb\u003ecats\u003c/b\u003e ? Then grab this book before another \u003cb\u003ecat\u003c/b\u003e lover snatches it from you ! This \u003cbr\u003e\nbook will teach you how to draw all sorts of \u003cb\u003ecats\u003c/b\u003e , from the pampered pedigrees of\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "z6JKO4C3tUQC",
+      "etag": "rpAout6/G2g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/z6JKO4C3tUQC",
+      "volumeInfo": {
+        "title": "Cats",
+        "authors": [
+          "Rebecca Stefoff"
+        ],
+        "publisher": "Marshall Cavendish",
+        "publishedDate": "2004",
+        "description": "Describes the evolution, body structure, and behavior of cats, and discusses their interaction with people.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0761415777"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780761415770"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 112,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=z6JKO4C3tUQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=z6JKO4C3tUQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=z6JKO4C3tUQC&pg=PA19&dq=cats&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=z6JKO4C3tUQC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cats.html?hl=&id=z6JKO4C3tUQC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=z6JKO4C3tUQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003ecats\u003c/b\u003e , once associated with the Romans and the rich , became more common on \u003cbr\u003e\nfarms and in villages throughout Europe . By the Middle Ages people saw \u003cb\u003ecats\u003c/b\u003e as \u003cbr\u003e\nworking animals rather than pampered pets . The job of a \u003cb\u003ecat\u003c/b\u003e was to kill mice&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "q5DchsHkxnoC",
+      "etag": "GX2RUBPLuLw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/q5DchsHkxnoC",
+      "volumeInfo": {
+        "title": "The Natural Remedy Book for Dogs and Cats",
+        "authors": [
+          "Diane Stein"
+        ],
+        "publisher": "B. Jain Publishers",
+        "publishedDate": "2004",
+        "description": "A delightful and informative guide to the use of nutrition, vitamins, minerals, massage, herbs and homoeopathy to support your pet shealth and vitality.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8170218500"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788170218500"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 163,
+        "printType": "BOOK",
+        "categories": [
+          "Alternative veterinary medicine"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=q5DchsHkxnoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=q5DchsHkxnoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=q5DchsHkxnoC&pg=PA153&dq=cats&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=q5DchsHkxnoC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Natural_Remedy_Book_for_Dogs_and_Cat.html?hl=&id=q5DchsHkxnoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=q5DchsHkxnoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Anal Gland Impaction a The anal glands are two small sacs located just inside \u003cbr\u003e\nthe dog and \u003cb\u003ecat\u003c/b\u003e rectum . They are the animals &#39; scent glands , used for territory \u003cbr\u003e\nmarking and recognition . They normally empty when the pet has a bowel \u003cbr\u003e\nmovement&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gFs1IBIhtx8C",
+      "etag": "byoHLcLKt0o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gFs1IBIhtx8C",
+      "volumeInfo": {
+        "title": "Raising Cats Naturally",
+        "subtitle": "How to Care for Your Cat the Way Nature Intended",
+        "authors": [
+          "Michelle T. Bernard"
+        ],
+        "publisher": "Lulu.com",
+        "publishedDate": "2004-02-01",
+        "description": "It's about time we had a book like this. Michelle Bernard has a rare gift for putting in plain words extraordinarily effective and levelheaded ways to properly care for cats. Steering clear of faddish, dangerous trends-and dissecting the oodles of misinformation that has regrettably become the norm in mainstream advice on animal nutrition-she shines most conspicuously on the issue of a proper feline diet. By giving the reader a common-sense, straightforward strategy for preparing a diet that is based solely on the nutritional requirements of true carnivores, her book is a must-have for anyone committed to building and maintaining glowing good health for cats. Bernard's work on all aspects of caring naturally for cats is based on years of meticulous research and hands-on experience, yet she translates her knowledge into simple, common sense guidelines that anyone can understand and put to use. Her eloquent explanation of homeopathy demystifies this splendid, ancient healing art that is so marvelously suited to cats, giving the reader a valuable awareness about how to build and nurture a cat's health from the inside out. This alone is a refreshing and most welcome approach given the routine over-medication and over-vaccination of cats. If you love your cat, read this book. All of it.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781427605344"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1427605343"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 156,
+        "printType": "BOOK",
+        "categories": [
+          "Cats"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gFs1IBIhtx8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gFs1IBIhtx8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=gFs1IBIhtx8C&pg=PA22&dq=cats&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=gFs1IBIhtx8C&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Raising_Cats_Naturally.html?hl=&id=gFs1IBIhtx8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Raising_Cats_Naturally-sample-epub.acsm?id=gFs1IBIhtx8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=gFs1IBIhtx8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Think of all the goodness your \u003cb\u003ecat\u003c/b\u003e is getting from the raw bone! Bone and its \u003cbr\u003e\nrelationship to constipation There is some thought that raw bone or bone meal \u003cbr\u003e\ncauses constipation in some \u003cb\u003ecats\u003c/b\u003e. Excess calcium in the diet will cause \u003cbr\u003e\nconstipation,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "us33S7-nXbIC",
+      "etag": "iXnlIIUCMn4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/us33S7-nXbIC",
+      "volumeInfo": {
+        "title": "Wild Cats",
+        "authors": [
+          "David Stone",
+          "International Union for Conservation of Nature and Natural Resources. Species Survival Commission"
+        ],
+        "publisher": "IUCN",
+        "publishedDate": "1995",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2831700507"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782831700502"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 33,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=us33S7-nXbIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=us33S7-nXbIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=us33S7-nXbIC&pg=PA31&dq=cats&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=us33S7-nXbIC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Wild_Cats.html?hl=&id=us33S7-nXbIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=us33S7-nXbIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The \u003cb\u003eCat\u003c/b\u003e Family Further Reading 14 Wild \u003cb\u003eCats\u003c/b\u003e of the World . Guggisberg. English / \u003cbr\u003e\ncommon name Scientific name Distribution African golden \u003cb\u003ecat\u003c/b\u003e Bay ( Bornean red \u003cbr\u003e\n) \u003cb\u003ecat\u003c/b\u003e Leopard \u003cb\u003ecat\u003c/b\u003e Chinese desert \u003cb\u003ecat\u003c/b\u003e Caracal Profelis aurata Catopuma badia&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yKFCgD0XN9EC",
+      "etag": "XrhCQE3DFQ4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yKFCgD0XN9EC",
+      "volumeInfo": {
+        "title": "Hemingway's Cats",
+        "subtitle": "An Illustrated Biography",
+        "authors": [
+          "Carlene Brennen"
+        ],
+        "publisher": "Pineapple Press Inc",
+        "publishedDate": "2005",
+        "description": "This unique biography of Ernest Hemingway, illustrated with more than two hundred photographs, reveals the legendary writer's affinity for the companion animals he kept throughout his lifetime.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781561643424"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1561643424"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 185,
+        "printType": "BOOK",
+        "categories": [
+          "Biography & Autobiography"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yKFCgD0XN9EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yKFCgD0XN9EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=yKFCgD0XN9EC&pg=PA33&dq=cats&hl=&cd=12&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=yKFCgD0XN9EC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hemingway_s_Cats.html?hl=&id=yKFCgD0XN9EC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yKFCgD0XN9EC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Selected Letters DESPITE POPULAR BELIEF, according to son Patrick, Ernest \u003cbr\u003e\nHemingway did not own \u003cb\u003ecats\u003c/b\u003e when he and his second wife, Pauline, and their \u003cbr\u003e\ntwo sons, Patrick and Gregory, lived in Key West at 907 Whitehead Street. \u003cbr\u003e\nAccording&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qQhuqVC4bnEC",
+      "etag": "CdEfScvWMH8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qQhuqVC4bnEC",
+      "volumeInfo": {
+        "title": "Cats of Africa",
+        "subtitle": "Behavior, Ecology, and Conservation",
+        "authors": [
+          "Luke Hunter"
+        ],
+        "publisher": "JHU Press",
+        "publishedDate": "2006",
+        "description": "Cats of Africa, behaviour, ecology and conservation.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0801884829"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780801884825"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 175,
+        "printType": "BOOK",
+        "categories": [
+          "Nature"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qQhuqVC4bnEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qQhuqVC4bnEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=qQhuqVC4bnEC&pg=PP60&dq=cats&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=qQhuqVC4bnEC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cats_of_Africa.html?hl=&id=qQhuqVC4bnEC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qQhuqVC4bnEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Small \u003cb\u003ecats\u003c/b\u003e have a long , flexible spine , helping to augment their stride length \u003cbr\u003e\nwhile running on the ground but also increasing their ability to climb and \u003cbr\u003e\nnegotiate obstacles vertically . Here the cheetah resembles small \u003cb\u003ecats\u003c/b\u003e , with \u003cbr\u003e\nproportionally a&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hFbJWMh9-OAC",
+      "etag": "+zcGYUeXZPI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hFbJWMh9-OAC",
+      "volumeInfo": {
+        "title": "Wild Cats of the World",
+        "authors": [
+          "Mel Sunquist",
+          "Fiona Sunquist"
+        ],
+        "publisher": "University of Chicago Press",
+        "publishedDate": "2002-08-15",
+        "description": "A detailed volume on thirty-six species of cats from around the world, from the two-pound black-footed cat to the 500-pound tiger, draws on a wide range of sources and provides information on each variety's characteristics, distribution, ecology, behavior, status in the wild, and conservation efforts.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780226779997"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0226779998"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 452,
+        "printType": "BOOK",
+        "categories": [
+          "Nature"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hFbJWMh9-OAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hFbJWMh9-OAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=hFbJWMh9-OAC&pg=PA413&dq=cats&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=hFbJWMh9-OAC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Wild_Cats_of_the_World.html?hl=&id=hFbJWMh9-OAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hFbJWMh9-OAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eCats\u003c/b\u003e use vocal, visual, and chemical signals to communicate with one an- other. \u003cbr\u003e\nSome vocal signals can be perceived over great distances, while others are used \u003cbr\u003e\nonly in close-contact situations, where they are often combined with visual&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "e7rmCvWk0HoC",
+      "etag": "Q8/cP8VnS90",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/e7rmCvWk0HoC",
+      "volumeInfo": {
+        "title": "Classical Cats",
+        "subtitle": "The Rise and Fall of the Sacred Cat",
+        "authors": [
+          "Donald W. Engels"
+        ],
+        "publisher": "Psychology Press",
+        "publishedDate": "2001",
+        "description": "Traces the history and importance of the cat from ancient Egypt to the Middle Ages, discussing its role in the development of European and Western civilization.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0415261627"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780415261623"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 227,
+        "printType": "BOOK",
+        "categories": [
+          "Pets"
+        ],
+        "averageRating": 2,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=e7rmCvWk0HoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=e7rmCvWk0HoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=e7rmCvWk0HoC&pg=PA160&dq=cats&hl=&cd=15&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=e7rmCvWk0HoC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Classical_Cats.html?hl=&id=e7rmCvWk0HoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=e7rmCvWk0HoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "to give good luck and the \u003cb\u003ecat&#39;s\u003c/b\u003e dying screams were thought to frighten away the \u003cbr\u003e\ndevil . This was especially true when the \u003cb\u003ecats\u003c/b\u003e were killed by the Celtic sacrificial \u003cbr\u003e\nmethod of burning them alive in large wicker baskets . Nevertheless , the&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nwQ3TvOMWxwC",
+      "etag": "mEpbjNqYEPM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nwQ3TvOMWxwC",
+      "volumeInfo": {
+        "title": "Homeopathic Care for Cats and Dogs",
+        "subtitle": "Small Doses for Small Animals",
+        "authors": [
+          "Donald Hamilton"
+        ],
+        "publisher": "North Atlantic Books",
+        "publishedDate": "1999",
+        "description": "Veterinarian Donald Hamilton specialises in homeopathic medicine. In this guide, he introduces natural remedies for treating common, acute, and chronic problems in cats and dogs. He covers digestive complaints, skin diseases (including irritation from fleas), respiratory disorders, urinary diseases, mouth, teeth, and gum problems, ear pain, musculoskeletal ailments, injuries and traumas, and psychological and behavioural problems.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "155643295X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781556432958"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 482,
+        "printType": "BOOK",
+        "categories": [
+          "Health & Fitness"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 5,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nwQ3TvOMWxwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nwQ3TvOMWxwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nwQ3TvOMWxwC&pg=PA212&dq=cats&hl=&cd=16&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=nwQ3TvOMWxwC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Homeopathic_Care_for_Cats_and_Dogs.html?hl=&id=nwQ3TvOMWxwC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nwQ3TvOMWxwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "These \u003cb\u003ecats\u003c/b\u003e may seem obstructed, but when a catheter is passed, no blockage is \u003cbr\u003e\nfound. There may also be mucus that collects at the urethral opening. Urtica \u003cbr\u003e\nurens This is another good remedy for cystitis with very frequent urging and little \u003cbr\u003e\nurine&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lXdN6yMaEJQC",
+      "etag": "iO2PUSCyeQ0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lXdN6yMaEJQC",
+      "volumeInfo": {
+        "title": "Nutrient Requirements of Cats",
+        "publisher": "National Academies Press",
+        "publishedDate": "1986-01-01",
+        "description": "Each of these popular handbooks contains comprehensive information on the nutritional needs of domestic animals and includes extensive tabular data. All are paperbound and measure 8 1/2 x 11.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780309036825"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0309036828"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 78,
+        "printType": "BOOK",
+        "categories": [
+          "Technology & Engineering"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lXdN6yMaEJQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lXdN6yMaEJQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lXdN6yMaEJQC&pg=PA5&dq=cats&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=lXdN6yMaEJQC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Nutrient_Requirements_of_Cats.html?hl=&id=lXdN6yMaEJQC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lXdN6yMaEJQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "More recently, voluntary energy intakes of \u003cb\u003ecats\u003c/b\u003e have been measured throughout \u003cbr\u003e\ngestation and lactation by Loveridge (1986b). The pattern of body weight change \u003cbr\u003e\nduring gestation and lactation is outlined in Figure 2 based on data for 64&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tcxyU3MfOAsC",
+      "etag": "TOVos0wJuzA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tcxyU3MfOAsC",
+      "volumeInfo": {
+        "title": "The Big New Yorker Book of Cats",
+        "authors": [
+          "The New Yorker Magazine"
+        ],
+        "publisher": "Random House",
+        "publishedDate": "2013-10-01",
+        "description": "Look what The New Yorker dragged in! It’s the purr-fect gathering of talent celebrating our feline companions. This bountiful collection, beautifully illustrated in full color, features articles, fiction, humor, poems, cartoons, cover art, drafts, and drawings from the magazine’s archives. Among the contributors are Margaret Atwood, T. Coraghessan Boyle, Roald Dahl, Wolcott Gibbs, Robert Graves, Emily Hahn, Ted Hughes, Jamaica Kincaid, Steven Millhauser, Haruki Murakami, Amy Ozols, Robert Pinsky, Jean Rhys, James Thurber, John Updike, Sylvia Townsend Warner, and E. B. White. Including a Foreword by Anthony Lane, this gorgeous keepsake will be a treasured gift for all cat lovers. Praise for The Big New Yorker Book of Cats “The Book of Cats comes a year after The Big New Yorker Book of Dogs—a publishing slight that, though it stings, I’ll forgive, as the latest anthology was worth the wait. . . . Two standout articles feature real-life obsessives of ages past who reveal today’s Caturnet devotees—with their GIFs and Tumblrs and hastily aggregated listicles—for what they truly are: amateurs. . . . Eat your heart out, Cute Overload.”—The New York Times Book Review “A beautiful hardcover.”—Jenny McCarthy, People “This irresistible anthology of articles, poems, essays, fiction, cartoons, and covers pulled from the New Yorker is a veritable treasure trove for cat lovers. Just dive right in; with stories from the likes of John Updike, Maeve Brennan, Roald Dalhl, and Haruki Murakami interwoven with hilariously wry cartoons, one can’t help but be enthralled. A must-have.”—Modern Cat “A shiny, well-fed tome . . . The anthology embodies the cat’s defining characteristic: its cluster of opposites, rolled together into a giant hairball of cultural attitudes—something, perhaps, at once uncomfortably and assuringly reflective of our own chronically conflicted selves.”—Brain Pickings “This gorgeous book has earned a permanent spot on my coffee table. It is an absolute joy to read and browse through, and I know it will bring me hours and hours of pleasure for years to come. And it makes a purr-fect gift for the special cat lovers in your life.”—The Conscious Cat “[A] sumptuous volume.”—The Dallas Morning News “One need not own cats (or do cats own their owners?) or even be a pet lover to savor this feline-focused offering.”—The Sacramento Bee “[A] fun collection of short stories, articles, humor, poems, and charming color covers from the magazine’s archives . . . [a] high-quality, attractive work.”—Library Journal “Covers, cartoons, authors of pieces both longer and shorter, reflect current views of the feline subject in all its glory. . . . The quality, humor and variety make for another successful New Yorker collection.”—Kirkus Reviews “An eminently giftable anthology.”—Publishers Weekly From the Hardcover edition.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780679644781"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0679644784"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [
+          "Pets"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tcxyU3MfOAsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tcxyU3MfOAsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=tcxyU3MfOAsC&printsec=frontcover&dq=cats&hl=&cd=18&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=tcxyU3MfOAsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tcxyU3MfOAsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 10.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 10.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=tcxyU3MfOAsC&rdid=book-tcxyU3MfOAsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 10990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 10990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Big_New_Yorker_Book_of_Cats-sample-epub.acsm?id=tcxyU3MfOAsC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tcxyU3MfOAsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This bountiful collection, beautifully illustrated in full color, features articles, fiction, humor, poems, cartoons, cover art, drafts, and drawings from the magazine’s archives."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "szBm5kPeC-cC",
+      "etag": "SPlzK40eqoA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/szBm5kPeC-cC",
+      "volumeInfo": {
+        "title": "Big Cats",
+        "subtitle": "Kingdom of Might",
+        "authors": [
+          "Tom Brakefield"
+        ],
+        "description": "Combines photography, research, and personal observations of the worlds eight big cats.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1610603540"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781610603546"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Nature"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=szBm5kPeC-cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=szBm5kPeC-cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=szBm5kPeC-cC&pg=PA15&dq=cats&hl=&cd=19&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=szBm5kPeC-cC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Big_Cats.html?hl=&id=szBm5kPeC-cC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Big_Cats-sample-pdf.acsm?id=szBm5kPeC-cC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=szBm5kPeC-cC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "THE \u003cb\u003eCAT\u003c/b\u003e : SUPREME PREDATOR LE F EDEN EXISTED , SURELY IT LAY ON \u003cbr\u003e\nTANZANIA&#39;S FABLED SERENGETI PLAIN . THIS BEAUTIFUL savanna \u003cbr\u003e\nmeanders northward into Kenya , where it is known as the Masai Mara . Vast \u003cbr\u003e\nopen vistas&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "S11g9BNo_tsC",
+      "etag": "sYOOwN9ZUHg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/S11g9BNo_tsC",
+      "volumeInfo": {
+        "title": "Big Cats",
+        "subtitle": "And Other Animals : Their Beauty, Dignity and Survival",
+        "authors": [
+          "Joseph R. Spies"
+        ],
+        "publisher": "Frederick Fell Publishers",
+        "publishedDate": "1998-10-01",
+        "description": "The perfect gift for all animal-lovers, this glossy paged gallery of over 225 photographs showcases the fascinating world of the animal kingdom.Supplemented by prose, this juxtaposition of the world's fiercest, and at times, gentlest creatures, was created to help prevent the extinction of several endangered species.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0811909077"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780811909075"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 205,
+        "printType": "BOOK",
+        "categories": [
+          "Nature"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=S11g9BNo_tsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=S11g9BNo_tsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=S11g9BNo_tsC&pg=PA19&dq=cats&hl=&cd=20&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=S11g9BNo_tsC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Big_Cats.html?hl=&id=S11g9BNo_tsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=S11g9BNo_tsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The history of panleukopenia is not generally known to \u003cb\u003ecat\u003c/b\u003e fanciers and others \u003cbr\u003e\nassociated with the big \u003cb\u003ecats\u003c/b\u003e. Furthermore, confusion is compounded because of \u003cbr\u003e\nthe multiplicity of names that have been used for this disease in the past."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pyFmXbhYQjsC",
+      "etag": "E4fBiLuiNYw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pyFmXbhYQjsC",
+      "volumeInfo": {
+        "title": "Manx Cats",
+        "authors": [
+          "Stuart A. Kallen"
+        ],
+        "publisher": "ABDO",
+        "publishedDate": "1995",
+        "description": "Presents information about the cat which comes from the Isle of Man and is the only cat in the world without a tail.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1562394495"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781562394493"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pyFmXbhYQjsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pyFmXbhYQjsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=pyFmXbhYQjsC&pg=PP10&dq=cats&hl=&cd=21&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=pyFmXbhYQjsC&dq=cats&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Manx_Cats.html?hl=&id=pyFmXbhYQjsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Manx_Cats-sample-pdf.acsm?id=pyFmXbhYQjsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pyFmXbhYQjsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "WHAT THEY &#39; RE LIKE Manx \u003cb\u003ecats\u003c/b\u003e are active , friendly , clever , and trusting . They \u003cbr\u003e\nlove to play games . Their owners can train them to fetch like a dog . Some Manx \u003cbr\u003e\n\u003cb\u003ecats\u003c/b\u003e have more of a tail than others . Manx \u003cb\u003ecats\u003c/b\u003e with no tail are called “ rumpies&nbsp;..."
+      }
+    }
+  ]
+}

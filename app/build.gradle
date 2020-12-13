@@ -45,6 +45,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    sourceSets {
+        debug {
+            res {
+                srcDirs 'src/debug/res'
+            }
+        }
+    }
 }
 
 dependencies {
