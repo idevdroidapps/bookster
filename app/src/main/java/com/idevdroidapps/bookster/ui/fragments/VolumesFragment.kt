@@ -46,6 +46,10 @@ class VolumesFragment : Fragment() {
 
         initAdapter(binding, clickListener)
 
+        binding.retryButton.setOnClickListener {
+            this.findNavController().popBackStack()
+        }
+
         return binding.root
     }
 

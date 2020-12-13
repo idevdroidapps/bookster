@@ -2,7 +2,7 @@
 <resources>
     <dimen name="row_item_margin_vertical">12dp</dimen>
     <dimen name="row_item_margin_horizontal">12dp</dimen>
-    <dimen name="volume_name_size">24sp</dimen>
+    <dimen name="volume_name_size">20sp</dimen>
     <dimen name="volume_description_size">16sp</dimen>
     <dimen name="loading_progress_bar_size">36dp</dimen>
     <dimen name="placeholder_item_height">32dp</dimen>
