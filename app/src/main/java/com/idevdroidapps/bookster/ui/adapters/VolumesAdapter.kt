@@ -8,7 +8,7 @@ import com.idevdroidapps.bookster.data.models.Volume
 import com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel
 
 /**
- * Adapter for the list of volumes.
+ * [PagingDataAdapter] for the list of [Volume].
  */
 class VolumesAdapter(private val viewModel: SharedViewModel?) :
     PagingDataAdapter<Volume, RecyclerView.ViewHolder>(VOLUME_COMPARATOR) {
@@ -18,9 +18,9 @@ class VolumesAdapter(private val viewModel: SharedViewModel?) :
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        val repoItem = getItem(position)
-        if (repoItem != null) {
-            (holder as VolumeViewHolder).bind(repoItem, viewModel)
+        val item = getItem(position)
+        if (item != null) {
+            (holder as VolumeViewHolder).bind(item, viewModel)
         }
     }
 

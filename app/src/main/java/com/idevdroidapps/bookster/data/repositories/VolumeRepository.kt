@@ -7,6 +7,7 @@ import com.idevdroidapps.bookster.data.models.Volume
 import com.idevdroidapps.bookster.data.network.GoogleBooksService
 import com.idevdroidapps.bookster.data.network.VolumePagingSource
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.filter
 
 class VolumeRepository(private val service: GoogleBooksService) {
 
@@ -23,7 +24,7 @@ class VolumeRepository(private val service: GoogleBooksService) {
 
     companion object {
 
-        private const val NETWORK_PAGE_SIZE = 30
+        private const val NETWORK_PAGE_SIZE = 20
 
         // For Singleton instantiation
         @Volatile
