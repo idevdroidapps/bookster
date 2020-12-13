@@ -10,18 +10,17 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.DividerItemDecoration
 import com.idevdroidapps.bookster.R
+import com.idevdroidapps.bookster.data.models.Volume
 import com.idevdroidapps.bookster.databinding.FragmentVolumesBinding
 import com.idevdroidapps.bookster.ui.adapters.VolumeLoadStateAdapter
 import com.idevdroidapps.bookster.ui.adapters.VolumesAdapter
 import com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.flow.distinctUntilChangedBy
-import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 
 class VolumesFragment : Fragment() {
@@ -37,7 +36,16 @@ class VolumesFragment : Fragment() {
     ): View {
         val binding: FragmentVolumesBinding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_volumes, container, false)
-        initAdapter(binding)
+
+        val clickListener: (Volume) -> Unit = {
+            viewModel.setCurrentVolume(it)
+            this.findNavController().navigate(
+                VolumesFragmentDirections.actionVolumesFragmentToDetailsFragment()
+            )
+        }
+
+        initAdapter(binding, clickListener)
+
         return binding.root
     }
 
@@ -58,11 +66,11 @@ class VolumesFragment : Fragment() {
      *
      * @param   binding The [FragmentVolumesBinding] received
      */
-    private fun initAdapter(binding: FragmentVolumesBinding) {
+    private fun initAdapter(binding: FragmentVolumesBinding, clickListener: (Volume) -> Unit) {
         val decoration = DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
         binding.recyclerViewVolumes.addItemDecoration(decoration)
 
-        adapter = VolumesAdapter(viewModel)
+        adapter = VolumesAdapter(clickListener)
         binding.recyclerViewVolumes.adapter = adapter.withLoadStateHeaderAndFooter(
             header = VolumeLoadStateAdapter { adapter.retry() },
             footer = VolumeLoadStateAdapter { adapter.retry() }

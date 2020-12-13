@@ -51,9 +51,5 @@
         <variable
             name="volume"
             type="com.idevdroidapps.bookster.data.models.Volume" />
-
-        <variable
-            name="viewModel"
-            type="com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel" />
     </data>
 </layout>

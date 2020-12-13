@@ -9,7 +9,6 @@ import com.idevdroidapps.bookster.data.models.ImageLinks
 import com.idevdroidapps.bookster.data.models.Volume
 import com.idevdroidapps.bookster.data.models.VolumeInfo
 import com.idevdroidapps.bookster.databinding.ListItemVolumeBinding
-import com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel
 
 /**
  * View Holder for a [Volume] RecyclerView list item.
@@ -17,7 +16,7 @@ import com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel
 class VolumeViewHolder(private val binding: ListItemVolumeBinding) :
     RecyclerView.ViewHolder(binding.root) {
 
-    fun bind(volume: Volume?, viewModel: SharedViewModel?) {
+    fun bind(volume: Volume?, clickListener: (Volume) -> Unit) {
         if (volume == null) {
             val resources = itemView.resources
             val textUnknown = resources.getString(R.string.unknown)
@@ -33,7 +32,11 @@ class VolumeViewHolder(private val binding: ListItemVolumeBinding) :
         } else {
             binding.volume = volume
         }
-        binding.viewModel = viewModel
+        binding.root.setOnClickListener{
+            binding.volume?.apply {
+                clickListener(this)
+            }
+        }
         binding.executePendingBindings()
     }
 

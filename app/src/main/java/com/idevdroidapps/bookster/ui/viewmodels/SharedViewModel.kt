@@ -48,8 +48,8 @@ class SharedViewModel(private val volumeRepository: VolumeRepository) : ViewMode
      *
      * @param   volume  The currently selected [Volume]
      */
-    fun setCurrentRepo(volume: Volume) {
-        mCurrentVolume.value = volume
+    fun setCurrentVolume(volume: Volume) {
+        mCurrentVolume.postValue(volume)
     }
 
     /**

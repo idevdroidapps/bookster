@@ -5,12 +5,11 @@ import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.idevdroidapps.bookster.data.models.Volume
-import com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel
 
 /**
  * [PagingDataAdapter] for the list of [Volume].
  */
-class VolumesAdapter(private val viewModel: SharedViewModel?) :
+class VolumesAdapter(private val clickListener: (Volume) -> Unit) :
     PagingDataAdapter<Volume, RecyclerView.ViewHolder>(VOLUME_COMPARATOR) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
@@ -20,7 +19,7 @@ class VolumesAdapter(private val viewModel: SharedViewModel?) :
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val item = getItem(position)
         if (item != null) {
-            (holder as VolumeViewHolder).bind(item, viewModel)
+            (holder as VolumeViewHolder).bind(item, clickListener)
         }
     }
 
