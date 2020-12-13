@@ -32,4 +32,5 @@
             android:layout_gravity="center"
             android:text="@string/retry" />
     </LinearLayout>
+
 </layout>
