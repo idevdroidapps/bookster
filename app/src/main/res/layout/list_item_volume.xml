@@ -1,9 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/thumbnail_small"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:thumbnailSmall="@{volume.volumeInfo.imageLinks.smallThumbnail}"
+            tools:srcCompat="@drawable/ic_placeholder_book_48" />
+
+        <TextView
+            android:id="@+id/volume_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@{volume.volumeInfo.title}"
+            android:textSize="@dimen/volume_name_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/thumbnail_small"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Cracking the Coding Interview: 6th Edition" />
+
+        <TextView
+            android:id="@+id/volume_authors"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:maxLines="3"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/volume_description_size"
+            app:authors="@{volume.volumeInfo.authors}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/thumbnail_small"
+            app:layout_constraintTop_toBottomOf="@+id/volume_title"
+            tools:ignore="UnusedAttribute"
+            tools:text="Gayle McDowell" />
+
+        <TextView
+            android:id="@+id/volume_published"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@{volume.volumeInfo.publishedDate}"
+            android:textSize="@dimen/volume_description_size"
+            android:textAlignment="viewEnd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/thumbnail_small"
+            app:layout_constraintTop_toBottomOf="@+id/volume_authors"
+            tools:ignore="RtlCompat"
+            tools:text="July 1, 2015" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <variable
+            name="volume"
+            type="com.idevdroidapps.bookster.data.models.Volume" />
+    </data>
 </layout>

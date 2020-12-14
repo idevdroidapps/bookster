@@ -5,7 +5,7 @@ import com.idevdroidapps.bookster.data.models.Volume
 import retrofit2.HttpException
 import java.io.IOException
 
-private const val BOOKS_STARTING_PAGE_INDEX = 1
+private const val BOOKS_STARTING_PAGE_INDEX = 0
 
 class VolumePagingSource(
     private val service: GoogleBooksService,
@@ -16,12 +16,12 @@ class VolumePagingSource(
         val position = params.key ?: BOOKS_STARTING_PAGE_INDEX
         val apiQuery = query
         return try {
-            val response = service.searchVolumes(apiQuery, position, params.loadSize)
+            val response = service.searchVolumes(apiQuery, position, params.pageSize)
             val volumes = response.items
             LoadResult.Page(
                 data = volumes,
-                prevKey = if (position == BOOKS_STARTING_PAGE_INDEX) null else position - 1,
-                nextKey = if (volumes.isEmpty()) null else position + 1
+                prevKey = if (position == BOOKS_STARTING_PAGE_INDEX) null else position,
+                nextKey = if (volumes.isEmpty()) null else (position + params.pageSize)
             )
         } catch (exception: IOException) {
             LoadResult.Error(exception)

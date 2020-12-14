@@ -21,15 +21,7 @@ This demo uses the Gradle build system.
 4. If prompted for a gradle configuration, accept the default settings.
 - Alternatively use the gradlew build command to build the project directly.
 
-### Get a Books API key
-***This demo app requires that you add your own Google Books API key***
-1. Follow instructions at [Get Started on Google Books API](https://developers.google.com/books/docs/v1/using#APIKey) to create your API key
-2. Create a file in the root directory called secure.properties (this file should NOT be under version control to protect your API key)
-3. Add a single line to secure.properties that looks like BOOKS_API_KEY=YOUR_API_KEY, where YOUR_API_KEY is the API key you obtained in the first step
-4. Build and run
-
 ## Concerns during Development
-- Providing a method for 'injecting' the API KEY so the project could be shared publicly
 - Use of the DataBinding Library can often require to rebuild the project in order to generate Implementation classes.
 
 ## Testing

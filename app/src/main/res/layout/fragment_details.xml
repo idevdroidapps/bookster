@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/hint_search"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close_48dp" />
+
+        <ImageView
+            android:id="@+id/thumbnail_large"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/close_button"
+            app:thumbnailLarge="@{viewModel.currentVolume.volumeInfo.imageLinks.thumbnail}"
+            tools:srcCompat="@drawable/ic_placeholder_book_96" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/browser_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/open_browser"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/volume_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="@{viewModel.currentVolume.volumeInfo.title}"
+            android:textSize="@dimen/volume_name_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/thumbnail_large"
+            tools:text="Cracking the Coding Interview: 6th Edition" />
+
+        <TextView
+            android:id="@+id/volume_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:maxLines="15"
+            android:paddingVertical="@dimen/row_item_margin_vertical"
+            android:text="@{viewModel.currentVolume.volumeInfo.description}"
+            android:textSize="@dimen/volume_description_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/volume_title"
+            tools:text="Lorem Ipsum type of text goes here" />
+
+        <TextView
+            android:id="@+id/volume_authors"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:maxLines="3"
+            android:textSize="@dimen/volume_description_size"
+            app:authors="@{viewModel.currentVolume.volumeInfo.authors}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/volume_description"
+            tools:ignore="UnusedAttribute"
+            tools:text="Gayle McDowell" />
+
+        <TextView
+            android:id="@+id/volume_published"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@{viewModel.currentVolume.volumeInfo.publishedDate}"
+            android:textSize="@dimen/volume_description_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/volume_authors"
+            tools:ignore="RtlCompat"
+            tools:text="July 1, 2015" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/volume_title"
+            tools:visibility="visible" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel" />
+    </data>
 </layout>

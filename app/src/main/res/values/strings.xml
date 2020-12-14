@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">bookster</string>
-    <string name="hint_search">Search Github Repositories</string>
+    <string name="hint_search">Search Google Books</string>
     <string name="language">Language: %s</string>
     <string name="unknown">\?</string>
     <string name="loading">Loading</string>
     <string name="retry">Retry</string>
-    <string name="open_browser">Open in Browser</string>
+    <string name="open_browser">Open in Reader</string>
 </resources>
