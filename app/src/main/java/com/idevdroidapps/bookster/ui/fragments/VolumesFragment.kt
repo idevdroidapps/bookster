@@ -43,11 +43,10 @@ class VolumesFragment : Fragment() {
                 VolumesFragmentDirections.actionVolumesFragmentToDetailsFragment()
             )
         }
-
         initAdapter(binding, clickListener)
 
         binding.retryButton.setOnClickListener {
-            this.findNavController().popBackStack()
+            startSearch()
         }
 
         return binding.root
@@ -55,14 +54,7 @@ class VolumesFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        searchJob?.cancel()
-        searchJob = lifecycleScope.launch {
-            viewModel.currentQuery.value?.let { query ->
-                viewModel.searchVolumes(query).collectLatest {
-                    adapter.submitData(it)
-                }
-            }
-        }
+        startSearch()
     }
 
     /**
@@ -97,6 +89,20 @@ class VolumesFragment : Fragment() {
                     "\uD83D\uDE28 Wooops ${it.error}",
                     Toast.LENGTH_LONG
                 ).show()
+            }
+        }
+    }
+
+    /**
+     * Starts a search for matching [Volume]s
+     */
+    private fun startSearch() {
+        searchJob?.cancel()
+        searchJob = lifecycleScope.launch {
+            viewModel.currentQuery.value?.let { query ->
+                viewModel.searchVolumes(query).collectLatest {
+                    adapter.submitData(it)
+                }
             }
         }
     }

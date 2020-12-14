@@ -49,7 +49,7 @@ class SharedViewModel(private val volumeRepository: VolumeRepository) : ViewMode
      * @param   volume  The currently selected [Volume]
      */
     fun setCurrentVolume(volume: Volume) {
-        mCurrentVolume.postValue(volume)
+        mCurrentVolume.value = volume
     }
 
     /**
@@ -60,4 +60,5 @@ class SharedViewModel(private val volumeRepository: VolumeRepository) : ViewMode
     fun setCurrentQuery(queryString: String) {
         mCurrentQuery.value = queryString
     }
+
 }

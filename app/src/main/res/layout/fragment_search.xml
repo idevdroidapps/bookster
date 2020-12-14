@@ -30,6 +30,8 @@
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textSize="18sp"
+            android:textColorHighlight="@color/highlightColor"
+            android:textCursorDrawable="@color/highlightColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView_search_button"
             app:layout_constraintTop_toTopOf="parent" />

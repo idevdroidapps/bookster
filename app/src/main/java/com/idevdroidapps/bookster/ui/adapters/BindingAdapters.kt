@@ -12,7 +12,7 @@ import com.idevdroidapps.bookster.R
 @BindingAdapter("authors")
 fun TextView.authors(authors: List<String>?) {
     authors?.let {
-        text = authors.joinToString(separator = ", "){
+        text = authors.joinToString(separator = ", ") {
             it.trim()
         }
     }
