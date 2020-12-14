@@ -11,10 +11,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.RequestConfiguration
 import com.idevdroidapps.bookster.R
 import com.idevdroidapps.bookster.databinding.FragmentSearchBinding
 import com.idevdroidapps.bookster.ui.utils.onClickKeyboardDoneButton
 import com.idevdroidapps.bookster.ui.viewmodels.SharedViewModel
+import java.util.*
 
 /**
  * Simple [Fragment] class for accepting using search input.
@@ -33,7 +36,12 @@ class SearchFragment : Fragment() {
 
         initViews(binding)
 
+        MobileAds.setRequestConfiguration(
+            RequestConfiguration.Builder().setTestDeviceIds(listOf("CC3A49DD9C0B876D57DF3946019C1F5B"))
+                .build()
+        )
         binding.adView.loadAd(AdRequest.Builder().build())
+
         binding.lifecycleOwner
         return binding.root
     }
