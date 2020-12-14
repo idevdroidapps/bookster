@@ -16,17 +16,6 @@ android {
         versionCode 1
         versionName "0.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
-        // Read the API key from ./secure.properties into R.string.books_api_key
-        def secureProps = new Properties()
-        if (file("../secure.properties").exists()) {
-            file("../secure.properties")?.withInputStream { secureProps.load(it) }
-        }
-        resValue "string", "books_api_key", (secureProps.getProperty("BOOKS_API_KEY") ?: "")
-        // To add your Books API key to this project:
-        // 1. Create a file ./secure.properties
-        // 2. Add this line, where YOUR_API_KEY is your API key:
-        //        BOOKS_API_KEY=YOUR_API_KEY
     }
 
     buildTypes {
@@ -85,6 +74,9 @@ dependencies {
     // Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // Admob
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
 
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

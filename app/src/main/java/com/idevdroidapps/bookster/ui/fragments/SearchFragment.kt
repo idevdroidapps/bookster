@@ -10,6 +10,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.google.android.gms.ads.AdRequest
 import com.idevdroidapps.bookster.R
 import com.idevdroidapps.bookster.databinding.FragmentSearchBinding
 import com.idevdroidapps.bookster.ui.utils.onClickKeyboardDoneButton
@@ -31,6 +32,8 @@ class SearchFragment : Fragment() {
             DataBindingUtil.inflate(inflater, R.layout.fragment_search, container, false)
 
         initViews(binding)
+
+        binding.adView.loadAd(AdRequest.Builder().build())
         binding.lifecycleOwner
         return binding.root
     }

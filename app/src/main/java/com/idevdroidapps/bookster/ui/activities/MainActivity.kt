@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.gms.ads.MobileAds
 import com.idevdroidapps.bookster.Injection
 import com.idevdroidapps.bookster.R
 import com.idevdroidapps.bookster.databinding.ActivityMainBinding
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding: ActivityMainBinding =
             DataBindingUtil.setContentView(this, R.layout.activity_main)
+        MobileAds.initialize(this)
         ViewModelProvider(this@MainActivity, Injection.provideMainActViewModelFactory()).get(
             SharedViewModel::class.java
         )
